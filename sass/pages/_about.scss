@@ -1,0 +1,227 @@
+
+
+
+
+.customerComments__frame:first-child{
+    display: none;
+}
+
+.customerComments{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width:90%;
+    margin:auto;
+
+    & .customer-comment, .customer-title{
+        font-size: 0.6rem;
+        margin-top: 0.5em;
+    }
+
+    & .customer-name{
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    & p{
+        padding: 3px 20px;
+    }
+
+
+
+       
+        
+        
+        
+}
+    
+.customerComments__frame{
+    background-color:white;
+    padding:10px;
+}
+
+.l-main-content__about-tools{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.about-tools__title{
+    color: grey;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    font-size: 0.6rem;
+    padding-right: 0;
+    text-align: right;
+}
+
+.l-main-content__about-tools .bar-wrapper{
+    width:100%;
+    
+    
+    
+    display: block;
+    background-color: rgb(222,222,222);
+    border: 2px solid rgb(238,238, 238);
+    border-radius: 50px;
+
+   
+
+    & .about-tools__afterEffects{
+        top:0;
+        height:4px;
+        width:85%;
+        background:linear-gradient(90deg, $color-primary, $color-secondary);
+        border-radius:50px;
+    }
+
+    & .about-tools__photoshop{
+        top:0;
+        height:4px;
+        width:90%;
+        background:linear-gradient(90deg, $color-primary, $color-secondary);
+        border-radius:50px;
+    }
+
+    & .about-tools__illustrator{
+        top:0;
+        height:4px;
+        width:70%;
+        background:linear-gradient(90deg, $color-primary, $color-secondary);
+        border-radius:50px;
+    }
+
+    & .about-tools__sublime{
+        top:0;
+        height:4px;
+        width:95%;
+        background: linear-gradient(90deg, $color-primary, $color-secondary);
+        border-radius:50px;
+    }
+
+    & .about-tools__sketch{
+        top:0;
+        height:4px;
+        width:85%;
+        background: linear-gradient(90deg, $color-primary, $color-secondary);
+        border-radius:50px;
+    }
+}
+
+
+
+
+@media screen and (min-width: $breakpoint-tablet) {
+
+
+    
+
+    .customerComments__frame:first-child{
+        display: block;
+    }
+
+
+
+
+
+.customerComments{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__frame{
+        
+        background-color: white;
+        width: 400px;
+        margin-top:20px;
+        margin-bottom: 70px;
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+    
+}
+
+.l-main-content__about-tools{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.about-tools__title{
+    color: grey;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    font-size: 0.6rem;
+    padding-right: 0;
+    text-align: right;
+}
+
+.l-main-content__about-tools .bar-wrapper{
+    width:100%;
+    height:5px;
+    display: block;
+    background-color: rgb(222,222,222);
+    border: 2px solid rgb(238,238, 238);
+    border-radius: 50px;
+
+   
+
+    & .about-tools__afterEffects{
+        top:0;
+        height:4px;
+        width:85%;
+        background:linear-gradient(90deg, $color-primary, $color-secondary);
+        border-radius:50px;
+    }
+
+    & .about-tools__photoshop{
+        top:0;
+        height:4px;
+        width:90%;
+        background:linear-gradient(90deg, $color-primary, $color-secondary);
+        border-radius:50px;
+    }
+
+    & .about-tools__illustrator{
+        top:0;
+        height:4px;
+        width:70%;
+        background:linear-gradient(90deg, $color-primary, $color-secondary);
+        border-radius:50px;
+    }
+
+    & .about-tools__sublime{
+        top:0;
+        height:4px;
+        width:95%;
+        background: linear-gradient(90deg, $color-primary, $color-secondary);
+        border-radius:50px;
+    }
+
+    & .about-tools__sketch{
+        top:0;
+        height:4px;
+        width:85%;
+        background: linear-gradient(90deg, $color-primary, $color-secondary);
+        border-radius:50px;
+    }
+}
+
+
+    
+
+    .flex-tools-bar{
+        width: 40%;
+        margin:0 auto;
+    }
+    .l-main-content__about-tools{
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        max-height: 10rem;
+        flex-wrap: wrap;
+
+        
+    }
+    
+}

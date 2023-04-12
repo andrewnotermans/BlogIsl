@@ -1,0 +1,35 @@
+.widgets{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.widgets__background{
+    position: absolute;
+    text-align: center;
+    top:15%;
+    left:10%;
+    padding: 20px;
+    width:80%;
+    height:68%;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+
+    & h1{
+        font-size: 14px;
+        text-transform: uppercase;
+        color: white;
+        border-bottom:2px solid white;
+        padding-bottom: 15px;
+        
+        
+        
+    }
+
+    & p{
+        color:white;
+        font-size: 10px;
+    }
+}

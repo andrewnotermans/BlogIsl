@@ -1,0 +1,34 @@
+.l-main-content__footer{
+    background:linear-gradient(90deg, $color-secondary, $color-primary);
+    margin-top:0;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+
+    & h1, p{
+        color:white;
+        
+    }
+
+
+}
+@media screen and (min-width: $breakpoint-tablet) {
+
+
+   
+
+    .l-main-content__footer .slide-container, .l-main-content__footer .wrap-body{
+    
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        & img{
+            display: flex;
+            
+        }
+
+    }
+    
+    
+}

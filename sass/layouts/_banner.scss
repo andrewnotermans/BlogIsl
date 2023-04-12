@@ -1,0 +1,70 @@
+.l-main-content__banner{
+    
+    
+    background:linear-gradient(90deg, $color-primary, $color-secondary);
+    width:100%;
+    text-align: center;
+    height:auto;
+
+    & .banner-title{
+
+        & h1{
+            font-size: 1.5rem;
+            margin: 0 auto;
+            padding: 24px 0;
+            
+        }
+    
+        
+        & h1, h2, i{
+            color:$color-tertiary;
+            display: inline-block;
+           
+            
+        }
+
+        & h2{
+            font-size: 0.7rem;
+            
+        }
+
+        & i{
+            padding:0 7px 24px 0;
+            font-size: 0.7rem;
+
+        }
+
+       
+    }
+}
+
+.l-main-content__banner--background{
+    position: relative;
+    background-image: url("../sources/img/blog/blog-home-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+    & .banner-title{
+        padding:182px 0;
+    }
+
+}
+
+
+    
+
+    
+    
+   
+
+   
+    
+
+
+    
+
+   
+    
+

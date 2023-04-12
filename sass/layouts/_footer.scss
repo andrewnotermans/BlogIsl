@@ -1,0 +1,55 @@
+.l-main-footer{
+    background-color: rgb(5, 7, 28);
+    & i{
+        color:white;
+    }
+    & h1{
+        color:white;
+        font-size: 1rem;
+    }
+
+    & .wrap-body{
+        padding:4rem 0;
+    }
+}
+
+    
+@media screen and (min-width: $breakpoint-tablet){
+
+    .l-main-footer{
+
+    
+        & .wrap-body{
+            padding:4rem 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            
+        }
+
+        & .l-main-footer__box{
+            
+            
+
+            max-width: 33.3333%;
+
+            
+
+        
+        }
+
+        & .social-item{
+            margin-right: 1rem;
+        }
+
+        
+        
+
+        
+        
+        
+
+       
+    }
+}
